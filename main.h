@@ -54,9 +54,6 @@ int (*get_print(char s))(va_list, flags_t *);
 /* get_flag */
 int get_flag(char s, flags_t *f);
 
-/* get_precision */
-int get_precision(const char *format, int *i, va_list list);
-
 /* print_alpha */
 int print_string(va_list l, flags_t *f);
 int print_char(va_list l, flags_t *f);
